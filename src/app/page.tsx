@@ -403,6 +403,7 @@ export default function Home() {
                 </button>
               </Link>
             </CardFooter>
+            
           </Card>
 
           <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">

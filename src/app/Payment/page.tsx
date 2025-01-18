@@ -256,7 +256,7 @@ export default function Page() {
                 <span className="text-lg font-medium">Bitcoin</span>
               </div>
               <Image
-                src={"/Bitcoin.png"}
+                src={"/bitcoin.png"}
                 alt="Bitcoin"
                 width={94}
                 height={20}
