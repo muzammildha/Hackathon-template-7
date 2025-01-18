@@ -85,7 +85,7 @@ export default function Home() {
         />
 
         <div className="w-[60px] h-[60px] bg-blue-600 hover:bg-blue-500 rounded-lg flex items-center justify-center">
-          <img src="/Swap.png" alt="Switch" className="w-[24px] h-[24px]" />
+          <Image src="/Swap.png" alt="Switch" width={60} height={60} className="w-[24px] h-[24px]" />
         </div>
 
         <Image
