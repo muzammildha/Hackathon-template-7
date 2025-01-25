@@ -6,10 +6,14 @@ export default function Header() {
     <div className="h-auto  w-full flex flex-wrap items-center justify-between px-4 py-4 bg-white">
       {/* Logo */}
       <div className="w-[120px] h-[40px] flex-shrink-0">
-        <a href="http://localhost:3000">
-        <h1 className="text-blue-600 text-3xl font-extrabold text-center lg:text-left">
-            MORENT
-          </h1>
+        <a href="/">
+        <Image
+          src="/Logo.png"
+          alt="Logo"
+          width={44}
+          height={44}
+          className="w-full h-full object-contain ml-4"
+        />
         </a>
       </div>
 
