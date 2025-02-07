@@ -46,19 +46,18 @@ export default function Home() {
         className="w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center items-center"
       >
         <div className="relative flex flex-col items-center">
-          <Image
+         <Link href={"/Details"}> <Image
             src={"/Ads 1.png"}
             alt="Ad 1"
             width={600}
             height={360}
             className="max-w-full"
           />
-          <button className="absolute bottom-20 left-1 m-3 bg-blue-600 hover:bg-blue-500 text-white font-normal py-2 px-4 rounded hidden lg:block">
-            Rental Car
-          </button>
+          </Link>
         </div>
 
         <div className="relative flex flex-col items-center">
+         <Link href ={"/Details"}>
           <Image
             src="/Ads 2.png"
             alt="Ad 2"
@@ -66,9 +65,7 @@ export default function Home() {
             height={360}
             className="max-w-full"
           />
-          <button className="absolute bottom-20 left-1 m-3 bg-blue-400 hover:bg-blue-600 text-white font-normal py-2 px-4 rounded hidden lg:block">
-            Rental Car
-          </button>
+          </Link>
         </div>
       </section>
 

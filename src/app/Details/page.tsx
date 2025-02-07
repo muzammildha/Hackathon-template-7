@@ -60,14 +60,14 @@ export default function page() {
         <section className=" w-full flex items-center justify-center">
           <Image
             src={"/Reviews.png"}
-            alt=""
+            alt="Reviews"
             width={1010}
             height={452}
             className=" hidden md:flex"
           />
           <Image
             src={"/Reviews (1).png"}
-            alt=""
+            alt="Reviews"
             width={492}
             height={384}
             className=" md:hidden"

@@ -1,16 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="h-auto  w-full flex flex-wrap items-center justify-between px-4 py-4 bg-white">
+    <div className="h-auto  w-full flex flex-wrap items-center justify-between px-4 py-4 bg-white sticky">
       {/* Logo */}
       <div className="w-[120px] h-[40px] flex-shrink-0">
-        <a href="/">
+        <Link href={"/"}>
         <h1 className="text-blue-600 text-3xl font-extrabold text-center lg:text-left">
             MORENT
           </h1>
-        </a>
+        </Link>
       </div>
 
 
@@ -33,10 +34,10 @@ export default function Header() {
 
       {/* Profile Icons */}
       <div className="flex items-center space-x-4 mt-4 md:mt-0">
-        <a href="#">
+       <Link href = {"#"}>
           <Image src="/Like.png" alt="Like" width={44} height={44} className="w-[36px] h-[36px]" />
-        </a>
-        <a href="#">
+        </Link>
+        <Link href = {"#"}>
           <Image
             src="/Notification.png"
             alt="Notification"
@@ -44,8 +45,8 @@ export default function Header() {
           height={44}
             className="w-[36px] h-[36px]"
           />
-        </a>
-        <a href="#">
+        </Link>
+        <Link href = {"#"}>
           <Image
             src="/Settings.png"
             alt="Settings"
@@ -53,8 +54,8 @@ export default function Header() {
           height={44}
             className="w-[36px] h-[36px]"
           />
-        </a>
-        <a href="/User">
+        </Link>
+        <Link href = {"#"}>
           <Image
             src="/profile.png"
             alt="profile"
@@ -62,7 +63,7 @@ export default function Header() {
           height={44}
             className="w-[44px] h-44px rounded-full"
           />
-        </a>
+       </Link>
       </div>
     </div>
   );
